@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: navy;
+}
+
+.mainHeading{
+    text-align: center;
+    font-size: 50px;
+    font-weight:300 ;
+    color: white;
+    text-decoration: underline;
+}
+
+.tableBody {
+    width: 400px;
+    margin: 50px auto;
+    padding-top: 1px;
+    background-color: darkslategrey;
+}
+
+.heading {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+input {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 20px;
+    font-size: 30px;
+    text-align: right;
+    color: white;
+    font-weight: 300;
+}
+
+input::placeholder {
+    color: white;
+}
+
+table {
+    width: 100%;
+    background-color: black;
+}
+
+td {
+    padding: 25px 0;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    border: none;
+    /* transition: all ease-in-out 0.2s; */
+}
+
+.allclear {
+    background-color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.oneclear{
+    background-color: orange;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sambal{
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.allclear:hover{
+    background-color: red;
+    color: black;
+}
+
+.oneclear:hover{
+    background-color: orange;
+    color: black;
+}
+
+td:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.sambal:hover{
+    background-color: lightgray;
+}
