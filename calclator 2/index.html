@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="inputField">
+            <input type="text" disabled id="inputField" placeholder="0">
+        </div>
+        <table cellspacing="10"> 
+            <tr>
+                <td onclick="allClear()" id="allClear" class="ac">Ac</td>
+                <td onclick="oneClear()" id="oneClear" class="c">c</td>
+                <td onclick="addValue('%')" class="oprater">%</td>
+                <td onclick="addValue('/')" class="oprater">÷</td>
+            </tr>
+            <tr>
+                <td onclick="addValue(7)">7</td>
+                <td onclick="addValue(8)">8</td>
+                <td onclick="addValue(9)">9</td>
+                <td onclick="addValue('*')" class="oprater">x</td>
+            </tr>
+            <tr>
+                <td onclick="addValue(4)">4</td>
+                <td onclick="addValue(5)">5</td>
+                <td onclick="addValue(6)">6</td>
+                <td onclick="addValue('-')" class="oprater">-</td>
+            </tr>
+            <tr>
+                <td onclick="addValue(1)">1</td>
+                <td onclick="addValue(2)">2</td>
+                <td onclick="addValue(3)">3</td>
+                <td onclick="addValue('+')" class="oprater">+</td>
+            </tr>
+            <tr>
+                <td onclick="addValue(0)" colspan="2">0</td>
+                <td onclick="addValue('.')" ><b>.</b></td>
+                <td onclick="answer('=')" class="oprater">=</td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

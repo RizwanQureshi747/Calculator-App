@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="mainHeading">
+        <!-- Calculator -->
+    </h1>
+    <div class="tableBody">
+        <h1 class="heading">
+            Calculator
+        </h1>
+        <div class="input">
+            <input type="text" id="inputField" disabled placeholder="0">
+        </div>
+        <table cellspacing="0">
+            <tr>
+                <td onclick="allClear()" class="allclear">Ac</td>
+                <td onclick="oneClear()" class="oneclear">C &nbsp;</td>
+                <td onclick="addValue('%')" class="sambal">%</td>
+                <td onclick="addValue('/')" class="sambal"> ÷ &nbsp; </td>
+            </tr>
+            <tr>
+                <td onclick="addValue(7)">7</td>
+                <td onclick="addValue(8)">8</td>
+                <td onclick="addValue(9)">9</td>
+                <td onclick="addValue('*')" class="sambal">x</td>
+            </tr>
+            <tr>
+                <td onclick="addValue(4)">4</td>
+                <td onclick="addValue(5)">5</td>
+                <td onclick="addValue(6)">6</td>
+                <td onclick="addValue('-')" class="sambal">-</td>
+            </tr>
+            <tr>
+                <td onclick="addValue(1)">1</td>
+                <td onclick="addValue(2)">2</td>
+                <td onclick="addValue(3)">3</td>
+                <td onclick="addValue('+')" class="sambal">+</td>
+            </tr>
+            <tr>
+                <td onclick="addValue(0)" colspan="2">0</td>
+                <td onclick="addValue('.')">.</td>
+                <td onclick="answer()" class="sambal">=</td>
+            </tr>
+        </table>
+        <div class="btnDiv">
+            <button class="next"><a href="calclator 2/index.html">NEXT</a></button>
+        </div>
+    </div>
+    
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
